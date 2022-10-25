@@ -92,3 +92,9 @@ subprojects {   					// 配置子项目
     }
     [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'// 编码配置
 }
+
+project("common-api") { // 进行子模块的配置
+    dependencies {  // 配置模块所需要的依赖库
+        compile("org.springframework.boot:spring-boot-starter-web") // Spring Boot 依赖
+    }
+}
