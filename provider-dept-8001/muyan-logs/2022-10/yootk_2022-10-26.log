@@ -1,0 +1,50 @@
+2022-10-26 12:10:44.704  INFO [] 1595 --- [main] com.echo.test.TestDeptService            : Starting TestDeptService on EchodeMBP with PID 1595 (started by echo in /Users/echo/代码/MicroCloud/provider-dept-8001)
+2022-10-26 12:10:44.706  INFO [] 1595 --- [main] com.echo.test.TestDeptService            : No active profile set, falling back to default profiles: default
+2022-10-26 12:10:46.544  INFO [] 1595 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 12:10:46.944 ERROR [] 1595 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 12:10:48.193  INFO [] 1595 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 12:10:49.452  INFO [] 1595 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:10:50.056  INFO [] 1595 --- [main] com.echo.test.TestDeptService            : Started TestDeptService in 6.345 seconds (JVM running for 7.726)
+2022-10-26 12:10:50.805  INFO [] 1595 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:10:50.808  INFO [] 1595 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 12:10:50.819  INFO [] 1595 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 12:14:04.039  INFO [] 1623 --- [main] com.echo.test.TestDeptService            : Starting TestDeptService on EchodeMBP with PID 1623 (started by echo in /Users/echo/代码/MicroCloud/provider-dept-8001)
+2022-10-26 12:14:04.041  INFO [] 1623 --- [main] com.echo.test.TestDeptService            : No active profile set, falling back to default profiles: default
+2022-10-26 12:14:06.072  INFO [] 1623 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 12:14:06.467 ERROR [] 1623 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 12:14:07.723  INFO [] 1623 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 12:14:08.969  INFO [] 1623 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:14:09.539  INFO [] 1623 --- [main] com.echo.test.TestDeptService            : Started TestDeptService in 6.554 seconds (JVM running for 7.979)
+2022-10-26 12:14:10.305  INFO [] 1623 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:14:10.307  INFO [] 1623 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 12:14:10.319  INFO [] 1623 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 12:15:39.415  INFO [] 1637 --- [main] com.echo.test.TestDeptService            : Starting TestDeptService on EchodeMBP with PID 1637 (started by echo in /Users/echo/代码/MicroCloud/provider-dept-8001)
+2022-10-26 12:15:39.418  INFO [] 1637 --- [main] com.echo.test.TestDeptService            : No active profile set, falling back to default profiles: default
+2022-10-26 12:15:41.573  INFO [] 1637 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 12:15:42.001 ERROR [] 1637 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 12:15:43.215  INFO [] 1637 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 12:15:44.651  INFO [] 1637 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:15:45.288  INFO [] 1637 --- [main] com.echo.test.TestDeptService            : Started TestDeptService in 6.981 seconds (JVM running for 8.552)
+2022-10-26 12:15:46.156  INFO [] 1637 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:15:46.158  INFO [] 1637 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 12:15:46.170  INFO [] 1637 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 12:18:22.829  INFO [] 1655 --- [main] com.echo.test.TestDeptService            : Starting TestDeptService on EchodeMBP with PID 1655 (started by echo in /Users/echo/代码/MicroCloud/provider-dept-8001)
+2022-10-26 12:18:22.831  INFO [] 1655 --- [main] com.echo.test.TestDeptService            : No active profile set, falling back to default profiles: default
+2022-10-26 12:18:24.849  INFO [] 1655 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 12:18:25.283 ERROR [] 1655 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 12:18:26.574  INFO [] 1655 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 12:18:27.872  INFO [] 1655 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:18:28.514  INFO [] 1655 --- [main] com.echo.test.TestDeptService            : Started TestDeptService in 6.772 seconds (JVM running for 8.263)
+2022-10-26 12:18:29.340  INFO [] 1655 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:18:29.342  INFO [] 1655 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 12:18:29.355  INFO [] 1655 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 14:54:28.653  INFO [] 7275 --- [main] com.echo.test.TestDeptService            : Starting TestDeptService on EchodeMacBook-Pro.local with PID 7275 (started by echo in /Users/echo/代码/MicroCloud/provider-dept-8001)
+2022-10-26 14:54:28.657  INFO [] 7275 --- [main] com.echo.test.TestDeptService            : No active profile set, falling back to default profiles: default
+2022-10-26 14:54:30.791  INFO [] 7275 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 14:54:31.202 ERROR [] 7275 --- [main] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 14:54:32.450  INFO [] 7275 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 14:54:33.772  INFO [] 7275 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 14:54:34.474  INFO [] 7275 --- [main] com.echo.test.TestDeptService            : Started TestDeptService in 6.992 seconds (JVM running for 8.663)
+2022-10-26 14:54:35.696  INFO [] 7275 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 14:54:35.698  INFO [] 7275 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 14:54:35.709  INFO [] 7275 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,42 @@
+2022-10-26 10:49:33.252  INFO [] 1138 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMBP with PID 1138 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 10:49:33.257  INFO [] 1138 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 10:49:33.328  INFO [] 1138 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 10:49:33.328  INFO [] 1138 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 10:49:35.508  INFO [] 1138 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 10:49:35.521  INFO [] 1138 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 10:49:35.521  INFO [] 1138 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 10:49:35.521  INFO [] 1138 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 10:49:35.626  INFO [] 1138 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 10:49:35.627  INFO [] 1138 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2298 ms
+2022-10-26 10:49:35.875  INFO [] 1138 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 10:49:36.178 ERROR [] 1138 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 10:49:37.502  INFO [] 1138 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 10:49:38.269  INFO [] 1138 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 10:49:38.615  INFO [] 1138 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 10:49:38.696  INFO [] 1138 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 10:49:38.724  INFO [] 1138 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 10:49:38.730  INFO [] 1138 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.652 seconds (JVM running for 7.515)
+2022-10-26 10:49:44.537  INFO [] 1138 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 10:49:44.541  INFO [] 1138 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 10:49:44.557  INFO [] 1138 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 12:07:34.063  INFO [] 1569 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMBP with PID 1569 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 12:07:34.068  INFO [] 1569 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 12:07:34.147  INFO [] 1569 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 12:07:34.147  INFO [] 1569 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 12:07:36.330  INFO [] 1569 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 12:07:36.345  INFO [] 1569 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 12:07:36.345  INFO [] 1569 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 12:07:36.345  INFO [] 1569 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 12:07:36.455  INFO [] 1569 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 12:07:36.456  INFO [] 1569 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2309 ms
+2022-10-26 12:07:36.705  INFO [] 1569 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 12:07:37.020 ERROR [] 1569 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 12:07:38.240  INFO [] 1569 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 12:07:39.025  INFO [] 1569 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:07:39.388  INFO [] 1569 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 12:07:39.437  INFO [] 1569 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 12:07:39.465  INFO [] 1569 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 12:07:39.472  INFO [] 1569 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.567 seconds (JVM running for 7.414)
+2022-10-26 12:08:16.681  INFO [] 1569 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 12:08:16.685  INFO [] 1569 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 12:08:16.701  INFO [] 1569 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

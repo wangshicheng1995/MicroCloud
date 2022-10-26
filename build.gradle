@@ -44,8 +44,8 @@ subprojects {   					// 配置子项目
         testImplementation(libraries.'junit-jupiter-engine') // Junit5测试组件
         testImplementation(libraries.'junit-platform-launcher') // Junit5测试组件
         // 以下为Lombok插件的相关依赖配置
-        compileOnly(libraries.'lombok') // 编译时生效
-        annotationProcessor(libraries.'lombok') // 注解时生效
+//        compileOnly(libraries.'lombok') // 编译时生效
+//        annotationProcessor(libraries.'lombok') // 注解时生效
     }
     sourceSets {    				// 源代码目录配置
         main { 					// main及相关子目录配置
@@ -93,8 +93,17 @@ subprojects {   					// 配置子项目
     [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'// 编码配置
 }
 
-project("common-api") { // 进行子模块的配置
+project(":common-api") { // 通用模块
     dependencies {  // 配置模块所需要的依赖库
         compile("org.springframework.boot:spring-boot-starter-web") // Spring Boot 依赖
+    }
+}
+
+project(":provider-dept-8001") { // 部门微服务
+    dependencies {
+        implementation(project(":common-api"))  // 导入公共子模块
+        implementation(libraries.'mybatis-plus-boot-starter')
+        implementation(libraries.'mysql-connector-java')
+        implementation(libraries.'druid')
     }
 }

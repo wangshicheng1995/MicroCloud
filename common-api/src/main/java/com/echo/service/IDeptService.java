@@ -42,5 +42,5 @@ public interface IDeptService {
      * 2、key = allRecorders value = 总记录数
      * 3、key = allPages value = 页数
      */
-    public Map<String, Object> split(int currentPage, int lineSize, String column, String keyword);
+    public Map<String, Object> page(int currentPage, int lineSize, String column, String keyword);
 }
