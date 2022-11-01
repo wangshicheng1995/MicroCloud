@@ -1,4 +1,5 @@
 rootProject.name = 'MicroCloud'
 include 'common-api'
 include 'provider-dept-8001'
+include 'consumer-springboot-80'
 

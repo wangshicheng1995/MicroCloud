@@ -40,3 +40,310 @@
 2022-10-26 12:08:16.681  INFO [] 1569 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
 2022-10-26 12:08:16.685  INFO [] 1569 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-10-26 12:08:16.701  INFO [] 1569 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 15:24:09.201  INFO [] 7630 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 7630 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 15:24:09.207  INFO [] 7630 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 15:24:09.282  INFO [] 7630 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 15:24:09.283  INFO [] 7630 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 15:24:11.442  INFO [] 7630 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 15:24:11.452  INFO [] 7630 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 15:24:11.452  INFO [] 7630 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 15:24:11.452  INFO [] 7630 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 15:24:11.550  INFO [] 7630 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 15:24:11.550  INFO [] 7630 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2267 ms
+2022-10-26 15:24:11.774  INFO [] 7630 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 15:24:12.046 ERROR [] 7630 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 15:24:13.168  INFO [] 7630 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 15:24:13.912  INFO [] 7630 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 15:24:14.204  INFO [] 7630 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 15:24:14.252  INFO [] 7630 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 15:24:14.294  INFO [] 7630 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 15:24:14.307  INFO [] 7630 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.375 seconds (JVM running for 7.304)
+2022-10-26 15:25:33.682  INFO [] 7630 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 15:25:33.685  INFO [] 7630 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 15:25:33.717  INFO [] 7630 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2022-10-26 15:25:58.167  WARN [] 7630 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 105019
+2022-10-26 15:25:58.180  WARN [] 7630 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 105176
+2022-10-26 15:25:58.190  WARN [] 7630 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 105320
+2022-10-26 15:25:58.204  WARN [] 7630 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 105469
+2022-10-26 15:25:58.217  WARN [] 7630 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 105601
+2022-10-26 15:38:46.502  INFO [] 7630 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 15:38:46.504  INFO [] 7630 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 15:38:46.511  INFO [] 7630 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 19:51:55.883  INFO [] 8732 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 8732 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 19:51:55.888  INFO [] 8732 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 19:51:55.960  INFO [] 8732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 19:51:55.960  INFO [] 8732 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 19:51:58.120  INFO [] 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 19:51:58.133  INFO [] 8732 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:51:58.133  INFO [] 8732 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 19:51:58.133  INFO [] 8732 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 19:51:58.244  INFO [] 8732 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 19:51:58.245  INFO [] 8732 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2285 ms
+2022-10-26 19:51:58.457  INFO [] 8732 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 19:51:58.803 ERROR [] 8732 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 19:51:59.962  INFO [] 8732 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 19:52:00.693  INFO [] 8732 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 19:52:01.024  WARN [] 8732 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-26 19:52:01.079  INFO [] 8732 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:52:01.107  INFO [] 8732 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 19:52:01.113  INFO [] 8732 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.419 seconds (JVM running for 7.341)
+2022-10-26 19:52:07.764  INFO [] 8732 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 19:52:07.766  INFO [] 8732 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 19:52:07.782  INFO [] 8732 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2022-10-26 19:56:38.866  INFO [] 8732 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 19:56:38.868  INFO [] 8732 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 19:56:38.888  INFO [] 8732 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 19:56:44.019  INFO [] 8747 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 8747 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 19:56:44.024  INFO [] 8747 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 19:56:44.105  INFO [] 8747 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 19:56:44.105  INFO [] 8747 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 19:56:46.262  INFO [] 8747 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 19:56:46.274  INFO [] 8747 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:56:46.275  INFO [] 8747 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 19:56:46.275  INFO [] 8747 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 19:56:46.365  INFO [] 8747 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 19:56:46.365  INFO [] 8747 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2260 ms
+2022-10-26 19:56:46.576  INFO [] 8747 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 19:56:46.926 ERROR [] 8747 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 19:56:48.066  INFO [] 8747 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 19:56:48.684  INFO [] 8747 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 19:56:48.924  WARN [] 8747 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-10-26 19:56:49.004  INFO [] 8747 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:56:49.050  INFO [] 8747 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 19:56:49.062  INFO [] 8747 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.304 seconds (JVM running for 7.192)
+2022-10-26 19:56:56.704  INFO [] 8747 --- [http-nio-8001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 19:56:56.706  INFO [] 8747 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 19:56:56.742  INFO [] 8747 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2022-10-26 19:57:12.565  INFO [] 8747 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 19:57:12.566  INFO [] 8747 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 19:57:12.582  INFO [] 8747 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 19:58:24.849  INFO [] 8767 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 8767 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 19:58:24.854  INFO [] 8767 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 19:58:24.936  INFO [] 8767 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 19:58:24.937  INFO [] 8767 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 19:58:27.132  INFO [] 8767 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 19:58:27.143  INFO [] 8767 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:58:27.144  INFO [] 8767 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 19:58:27.144  INFO [] 8767 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 19:58:27.244  INFO [] 8767 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 19:58:27.245  INFO [] 8767 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2308 ms
+2022-10-26 19:58:27.447  INFO [] 8767 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 19:58:27.733 ERROR [] 8767 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 19:58:28.823  INFO [] 8767 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 19:58:29.411  INFO [] 8767 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 19:58:29.655  INFO [] 8767 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 19:58:29.710  INFO [] 8767 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 19:58:29.733  INFO [] 8767 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 19:58:29.738  INFO [] 8767 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.099 seconds (JVM running for 6.993)
+2022-10-26 20:08:22.054  INFO [] 8767 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 20:08:22.057  INFO [] 8767 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 20:08:22.089  INFO [] 8767 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2022-10-26 20:10:00.484  WARN [] 8767 --- [http-nio-8001-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{1}"]
+2022-10-26 20:10:10.202  WARN [] 8767 --- [http-nio-8001-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 701394
+2022-10-26 20:10:10.214  WARN [] 8767 --- [http-nio-8001-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 701554
+2022-10-26 20:10:10.228  WARN [] 8767 --- [http-nio-8001-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 701694
+2022-10-26 20:10:10.244  WARN [] 8767 --- [http-nio-8001-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 701822
+2022-10-26 20:10:10.262  WARN [] 8767 --- [http-nio-8001-exec-6] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 701961
+2022-10-26 20:28:07.956  INFO [] 8767 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 20:28:07.960  INFO [] 8767 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 20:28:07.969  INFO [] 8767 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 20:28:41.472  INFO [] 8891 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 8891 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 20:28:41.477  INFO [] 8891 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 20:28:41.553  INFO [] 8891 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 20:28:41.553  INFO [] 8891 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 20:28:43.677  INFO [] 8891 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 20:28:43.687  INFO [] 8891 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 20:28:43.688  INFO [] 8891 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 20:28:43.688  INFO [] 8891 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 20:28:43.785  INFO [] 8891 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 20:28:43.786  INFO [] 8891 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2233 ms
+2022-10-26 20:28:44.021  INFO [] 8891 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 20:28:44.312 ERROR [] 8891 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 20:28:45.679  INFO [] 8891 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 20:28:46.438  INFO [] 8891 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 20:28:46.688  INFO [] 8891 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 20:28:46.733  INFO [] 8891 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 20:28:46.759  INFO [] 8891 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 20:28:46.762  INFO [] 8891 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.475 seconds (JVM running for 7.285)
+2022-10-26 20:29:15.740  INFO [] 8891 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 20:29:15.743  INFO [] 8891 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 20:29:15.762  INFO [] 8891 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2022-10-26 20:32:21.133  WARN [] 8891 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 184990
+2022-10-26 20:32:21.146  WARN [] 8891 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 215620
+2022-10-26 20:32:21.156  WARN [] 8891 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 215746
+2022-10-26 20:32:21.169  WARN [] 8891 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 215873
+2022-10-26 20:32:21.184  WARN [] 8891 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 216029
+2022-10-26 20:36:23.688  INFO [] 8891 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 20:36:23.690  INFO [] 8891 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 20:36:23.695  INFO [] 8891 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 20:36:29.795  INFO [] 8930 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 8930 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 20:36:29.800  INFO [] 8930 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 20:36:29.880  INFO [] 8930 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 20:36:29.880  INFO [] 8930 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 20:36:32.113  INFO [] 8930 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 20:36:32.123  INFO [] 8930 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 20:36:32.124  INFO [] 8930 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 20:36:32.124  INFO [] 8930 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 20:36:32.219  INFO [] 8930 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 20:36:32.219  INFO [] 8930 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2338 ms
+2022-10-26 20:36:32.436  INFO [] 8930 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 20:36:32.753 ERROR [] 8930 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 20:36:33.836  INFO [] 8930 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 20:36:34.558  INFO [] 8930 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 20:36:34.951  INFO [] 8930 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 20:36:35.008  INFO [] 8930 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 20:36:35.036  INFO [] 8930 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 20:36:35.042  INFO [] 8930 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.448 seconds (JVM running for 7.293)
+2022-10-26 20:40:56.354  INFO [] 8930 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 20:40:56.357  INFO [] 8930 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 20:40:56.383  INFO [] 8930 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2022-10-26 20:40:56.626  WARN [] 8930 --- [http-nio-8001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 262800
+2022-10-26 20:40:56.639  WARN [] 8930 --- [http-nio-8001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 262941
+2022-10-26 20:40:56.648  WARN [] 8930 --- [http-nio-8001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 263073
+2022-10-26 20:40:56.658  WARN [] 8930 --- [http-nio-8001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 263203
+2022-10-26 20:40:56.672  WARN [] 8930 --- [http-nio-8001-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 263344
+2022-10-26 20:51:55.526  WARN [] 8930 --- [http-nio-8001-exec-3] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://121.4.111.87:3306/yootk8001, version : 1.2.5, lastPacketReceivedIdleMillis : 658322
+2022-10-26 20:51:55.872 ERROR [] 8930 --- [http-nio-8001-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.jdbc.UncategorizedSQLException: 
+### Error updating database.  Cause: java.sql.SQLException: sql injection violation, dbType mysql, , druid-version 1.2.5, syntax error: syntax error, expect ')', pos 26, line 1, column 27, token EOF : INSERT INTO dept    VALUES
+### The error may exist in com/echo/provider/dao/IDeptDAO.java (best guess)
+### The error may involve com.echo.provider.dao.IDeptDAO.insert
+### The error occurred while executing an update
+### SQL: INSERT INTO dept    VALUES
+### Cause: java.sql.SQLException: sql injection violation, dbType mysql, , druid-version 1.2.5, syntax error: syntax error, expect ')', pos 26, line 1, column 27, token EOF : INSERT INTO dept    VALUES
+; uncategorized SQLException; SQL state [null]; error code [0]; sql injection violation, dbType mysql, , druid-version 1.2.5, syntax error: syntax error, expect ')', pos 26, line 1, column 27, token EOF : INSERT INTO dept    VALUES; nested exception is java.sql.SQLException: sql injection violation, dbType mysql, , druid-version 1.2.5, syntax error: syntax error, expect ')', pos 26, line 1, column 27, token EOF : INSERT INTO dept    VALUES] with root cause
+
+com.alibaba.druid.sql.parser.ParserException: syntax error, expect ')', pos 26, line 1, column 27, token EOF
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseValueClause(SQLStatementParser.java:5902)
+	at com.alibaba.druid.sql.dialect.mysql.parser.MySqlStatementParser.parseInsert(MySqlStatementParser.java:4926)
+	at com.alibaba.druid.sql.dialect.mysql.parser.MySqlStatementParser.parseInsert(MySqlStatementParser.java:53)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:255)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:124)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:630)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:584)
+	at com.alibaba.druid.wall.WallFilter.checkInternal(WallFilter.java:826)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:381)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:681)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:963)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:176)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:681)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:365)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:502)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.instantiateStatement(PreparedStatementHandler.java:83)
+	at org.apache.ibatis.executor.statement.BaseStatementHandler.prepare(BaseStatementHandler.java:88)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.prepare(RoutingStatementHandler.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy82.prepare(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:87)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:106)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy80.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy69.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:59)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at com.sun.proxy.$Proxy72.insert(Unknown Source)
+	at com.echo.provider.service.impl.DeptServiceImpl.add(DeptServiceImpl.java:42)
+	at com.echo.provider.action.DeptAction.add(DeptAction.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022-10-26 21:06:32.760  INFO [] 8930 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 21:06:32.761  INFO [] 8930 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 21:06:32.768  INFO [] 8930 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-10-26 21:06:38.893  INFO [] 9195 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Starting StartProviderDept8001Application on EchodeMacBook-Pro.local with PID 9195 (started by echo in /Users/echo/代码/MicroCloud)
+2022-10-26 21:06:38.899  INFO [] 9195 --- [restartedMain] c.e.p.StartProviderDept8001Application   : No active profile set, falling back to default profiles: default
+2022-10-26 21:06:38.985  INFO [] 9195 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-26 21:06:38.985  INFO [] 9195 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-26 21:06:41.315  INFO [] 9195 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2022-10-26 21:06:41.328  INFO [] 9195 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8001"]
+2022-10-26 21:06:41.329  INFO [] 9195 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-26 21:06:41.329  INFO [] 9195 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-26 21:06:41.437  INFO [] 9195 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-26 21:06:41.438  INFO [] 9195 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2452 ms
+2022-10-26 21:06:41.693  INFO [] 9195 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-10-26 21:06:42.010 ERROR [] 9195 --- [restartedMain] com.alibaba.druid.filter.FilterManager   : load filter error, filter not found : s1f4j
+2022-10-26 21:06:43.141  INFO [] 9195 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-10-26 21:06:43.975  INFO [] 9195 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-26 21:06:44.294  INFO [] 9195 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-26 21:06:44.347  INFO [] 9195 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8001"]
+2022-10-26 21:06:44.380  INFO [] 9195 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2022-10-26 21:06:44.384  INFO [] 9195 --- [restartedMain] c.e.p.StartProviderDept8001Application   : Started StartProviderDept8001Application in 6.662 seconds (JVM running for 7.544)
+2022-10-26 21:06:55.115  INFO [] 9195 --- [http-nio-8001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-26 21:06:55.117  INFO [] 9195 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-26 21:06:55.143  INFO [] 9195 --- [http-nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2022-10-26 21:08:47.425  INFO [] 9195 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2022-10-26 21:08:47.427  INFO [] 9195 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-10-26 21:08:47.443  INFO [] 9195 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

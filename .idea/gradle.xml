@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/common-api" />
+            <option value="$PROJECT_DIR$/consumer-springboot-80" />
             <option value="$PROJECT_DIR$/provider-dept-8001" />
           </set>
         </option>
